@@ -44,10 +44,10 @@ export default function Hero() {
         <div className="mt-16 grid grid-cols-2 gap-px overflow-hidden rounded-sm border border-gold-200/80 bg-gold-200/80 sm:grid-cols-3 lg:max-w-4xl">
           {[
             { value: '500', suffix: ' KVA', label: 'Maximum Rating' },
-            { value: '5,000+', suffix: '+', label: 'Annual Output' },
+            { value: '5,000', suffix: '+', label: 'Annual Output' },
             { value: '10+', suffix: '', label: 'Trusted Partners' },
             { value: '125+', suffix: ' CR', label: 'Annual Turnover' },
-            { value: '150+', suffix: '+', label: 'Employees' },
+            { value: '150', suffix: '+', label: 'Employees' },
             { value: 'BIS', suffix: '', label: 'IS 1180 Certified' },
           ].map((stat) => (
             <div key={stat.label} className="bg-warm-white px-5 py-5">

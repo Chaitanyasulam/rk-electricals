@@ -9,7 +9,7 @@ interface MarqueeProps {
 
 export default function Marquee({
   children,
-  speed = 35,
+  speed = 105,
   reverse = false,
   pauseOnHover = true,
 }: MarqueeProps) {

@@ -1,5 +1,4 @@
 import Marquee from './Marquee'
-
 const licenses = [
   {
     title: 'BIS License (IS 1180)',
@@ -8,65 +7,79 @@ const licenses = [
   },
   {
     title: 'ISO 9001:2015',
-    body: 'Quality Management System certification for design, production, inspection, and continuous improvement.',
+    body: 'Quality Management System certification ensuring consistent product quality, customer satisfaction, and continual improvement in manufacturing processes.',
     tag: 'Quality',
   },
   {
+    title: 'ISO 14001:2015',
+    body: 'Environmental Management System certification demonstrating our commitment to sustainable manufacturing practices, pollution prevention, and environmental responsibility.',
+    tag: 'Environment',
+  },
+  {
+    title: 'ISO 45001:2018',
+    body: 'Occupational Health and Safety Management System certification ensuring a safe, healthy, and compliant workplace for employees and visitors.',
+    tag: 'Safety',
+  },
+  {
     title: 'NABL Certified',
-    body: 'National Accreditation Board for Testing and Calibration Laboratories — accredited in-house testing for routine and type tests.',
+    body: 'National Accreditation Board for Testing and Calibration Laboratories (NABL) accredited testing facilities for routine, type, and special transformer tests.',
     tag: 'Testing',
   },
   {
     title: 'ERDA Certified',
-    body: 'Electrical Research and Development Association certification validating design standards and performance testing protocols.',
+    body: 'Electrical Research and Development Association (ERDA) certification validating transformer design, performance, reliability, and testing standards.',
     tag: 'Research',
   },
   {
+    title: 'BEE 5-Star Rated Transformers',
+    body: 'Manufacturing Bureau of Energy Efficiency (BEE) 5-Star rated distribution transformers designed for maximum energy efficiency and reduced technical losses.',
+    tag: 'Energy',
+  },
+  {
+    title: 'BEE 2-Star Rated Transformers',
+    body: 'Manufacturing BEE 2-Star rated distribution transformers compliant with Bureau of Energy Efficiency performance standards.',
+    tag: 'Energy',
+  },
+  {
     title: 'Factory License',
-    body: 'Registration under the Factories Act, 1948 for industrial manufacturing and worker safety compliance.',
+    body: 'Licensed manufacturing facility operating under the Factories Act with full compliance for industrial operations and worker safety.',
     tag: 'Manufacturing',
   },
   {
     title: 'GST Registration',
-    body: 'Goods and Services Tax registration for legal supply to utilities, contractors, dealers, and commercial buyers.',
+    body: 'Goods and Services Tax registration enabling compliant supply of transformers to utilities, industries, contractors, and government organizations.',
     tag: 'Tax & Trade',
   },
   {
     title: 'MSME / Udyam Registration',
-    body: 'MSME registration for government tender eligibility, subsidies, and priority sector benefits.',
+    body: 'Government-recognized MSME registration providing eligibility for government tenders, subsidies, and various industrial support schemes.',
     tag: 'Government',
   },
-
-
   {
     title: 'Pollution Control Consent',
-    body: 'CTE and CTO from the State Pollution Control Board for oil handling and environmental compliance.',
+    body: 'Consent to Establish (CTE) and Consent to Operate (CTO) obtained from the State Pollution Control Board for environmentally compliant manufacturing.',
     tag: 'Environment',
   },
   {
     title: 'CEIG Approval',
-    body: 'Chief Electrical Inspector to Government approval for manufacturing and testing of electrical equipment.',
+    body: 'Approval from the Chief Electrical Inspector to Government (CEIG) for manufacturing, inspection, and testing of electrical equipment.',
     tag: 'Safety',
   },
   {
     title: 'DISCOM Vendor Empanelment',
-    body: 'Approved vendor with APSPDCL, APCPDCL, APEPDCL, TSSPDCL, and TSEPPDCL for tenders and direct supply.',
+    body: 'Empanelled supplier for state power distribution companies, enabling participation in utility tenders and direct transformer supply.',
     tag: 'Supply',
   },
   {
-    title: 'BEE Energy Efficiency',
-    body: 'Bureau of Energy Efficiency compliance for energy-efficient transformer designs under the Energy Conservation Act.',
-    tag: 'Efficiency',
-  },
-  {
     title: 'Trade License',
-    body: 'Municipal trade license for operating the manufacturing unit from registered premises.',
+    body: 'Valid municipal trade license authorizing manufacturing operations from our registered industrial premises.',
     tag: 'Local',
   },
 ]
 
-const row1 = licenses.slice(0, 6)
-const row2 = licenses.slice(6)
+const row1 = licenses.slice(0, 5)
+const row2 = licenses.slice(5, 10)
+const row3 = licenses.slice(10, 15)
 
 function LicenseCard({
   title,
