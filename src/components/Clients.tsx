@@ -18,12 +18,26 @@ const clients = [
     name: 'Telangana Southern Power Distribution Company Ltd.',
   },
   {
-    abbr: 'TSEPPDCL',
+    abbr: 'TSNPDCL',
     name: 'Telangana State Northern Power Distribution Company Ltd.',
   },
   {
+    abbr: 'BESCOM',
+    name: 'Bengaluru Electricity Supply Company.',
+  },
+  {
+    abbr: 'GESCOM',
+    name: 'Gulbarga Electricity Supply Company.',
+  },
+  
+  {
     abbr: 'RESCOM',
     name: 'Residential & Commercial Sector',
+  },
+ 
+  {
+    abbr: 'HESCOM',
+    name: 'Hubli Electricity Supply Company Limited',
   },
 ]
 
@@ -49,7 +63,7 @@ export default function Clients() {
             <div className="h-px w-10 bg-gold-400" />
           </div>
           <h2 className="mt-4 font-serif text-4xl text-charcoal md:text-5xl">
-            6 Trusted Partners
+            Trusted Partners
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-muted">
             An approved supplier to leading power distribution companies and the
@@ -73,10 +87,10 @@ export default function Clients() {
 
         <div className="mt-12 grid grid-cols-2 gap-6 text-center md:grid-cols-4">
           {[
-            { value: '5,000', suffix: '+', label: 'Units per year' },
-            { value: '150', suffix: ' CR', label: 'Annual turnover' },
-            { value: '200', suffix: '+', label: 'Employees' },
-            { value: '6', suffix: '', label: 'Trusted partners' },
+            { value: '5,000+', suffix: '+', label: 'Units per year' },
+            { value: '125+', suffix: ' CR', label: 'Annual turnover' },
+            { value: '150+', suffix: '+', label: 'Employees' },
+            { value: '10+', suffix: '', label: 'Trusted partners' },
           ].map((stat) => (
             <div key={stat.label}>
               <p className="font-serif text-3xl font-semibold text-charcoal md:text-4xl">

@@ -45,7 +45,7 @@ export default function About() {
               {[
                 { num: '01', title: 'In-house Production', desc: 'Complete manufacturing under one roof' },
                 { num: '02', title: 'Routine Testing', desc: 'Every unit tested before dispatch' },
-                { num: '03', title: 'Partner Approved', desc: 'Empanelled with 6 trusted partners' },
+                { num: '03', title: 'Partner Approved', desc: 'Empanelled with 10+ trusted partners' },
                 { num: '04', title: 'Timely Delivery', desc: 'Consistent supply for bulk orders' },
               ].map((item) => (
                 <div key={item.num} className="border-l-2 border-gold-300 pl-4">
