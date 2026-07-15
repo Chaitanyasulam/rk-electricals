@@ -87,10 +87,10 @@ export default function Clients() {
 
         <div className="mt-12 grid grid-cols-2 gap-6 text-center md:grid-cols-4">
           {[
-            { value: '5,000', suffix: '+', label: 'Units per year' },
-            { value: '125+', suffix: ' CR', label: 'Annual turnover' },
-            { value: '150', suffix: '+', label: 'Employees' },
-            { value: '10+', suffix: '', label: 'Trusted partners' },
+            { value: '5,0000', suffix: '+', label: 'Units per year' },
+            { value: '1250+', suffix: ' CR', label: 'Annual turnover' },
+            { value: '1500', suffix: '+', label: 'Employees' },
+            { value: '100+', suffix: '', label: 'Trusted partners' },
           ].map((stat) => (
             <div key={stat.label}>
               <p className="font-serif text-3xl font-semibold text-charcoal md:text-4xl">
