@@ -37,7 +37,7 @@ const specs = [
   "Voltage class: 11 kV primary / 433 V secondary (custom voltage ratios available)",
   "Three-phase, 50 Hz AC supply",
   "Copper wound windings with electrolytic-grade copper conductors",
-  "CRGO (Cold Rolled Grain Oriented) silicon steel core for low no-load losses",
+  "CRGO (Cold Rolled Grain Oriented) silicon steel core for low no-load losses along with amorphous coar",
   "Energy-efficient designs compliant with BEE 2-Star and 5-Star ratings",
   "Manufactured in accordance with IS 1180 (Part 1): 2014 and latest BIS standards",
   "Hermetically sealed or conservator-type construction",
