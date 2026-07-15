@@ -90,7 +90,7 @@ export default function Clients() {
             { value: '5,000', suffix: '+', label: 'Units per year' },
             { value: '125+', suffix: ' CR', label: 'Annual turnover' },
             { value: '150', suffix: '+', label: 'Employees' },
-            { value: '10+', suffix: '', label: 'Trusted partners' },
+            { value: '25+', suffix: '', label: 'Trusted partners' },
           ].map((stat) => (
             <div key={stat.label}>
               <p className="font-serif text-3xl font-semibold text-charcoal md:text-4xl">

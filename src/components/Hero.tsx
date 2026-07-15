@@ -45,10 +45,10 @@ export default function Hero() {
           {[
             { value: '500', suffix: ' KVA', label: 'Maximum Rating' },
             { value: '5,000', suffix: '+', label: 'Annual Output' },
-            { value: '10+', suffix: '', label: 'Trusted Partners' },
+            { value: '25+', suffix: '', label: 'Trusted Partners' },
             { value: '125+', suffix: ' CR', label: 'Annual Turnover' },
             { value: '150', suffix: '+', label: 'Employees' },
-            { value: 'BIS', suffix: '', label: 'IS 1180 Certified' },
+            { value: '15+', suffix: '', label: 'years' },
           ].map((stat) => (
             <div key={stat.label} className="bg-warm-white px-5 py-5">
               <p className="font-serif text-2xl font-semibold text-charcoal md:text-3xl">
