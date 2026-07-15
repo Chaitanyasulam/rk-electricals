@@ -36,11 +36,7 @@ const licenses = [
     body: 'MSME registration for government tender eligibility, subsidies, and priority sector benefits.',
     tag: 'Government',
   },
-  {
-    title: 'MSME / Udyam Registration',
-    body: 'MSME registration for government tender eligibility, subsidies, and priority sector benefits.',
-    tag: 'Government',
-  },
+
 
   {
     title: 'Pollution Control Consent',
