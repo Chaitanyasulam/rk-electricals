@@ -95,7 +95,7 @@ export default function Contact() {
                   id="message"
                   rows={4}
                   className="mt-1.5 w-full resize-none rounded-sm border border-gold-200 bg-warm-white px-4 py-3 text-sm text-charcoal placeholder-muted/60 outline-none transition-colors focus:border-gold-400"
-                  placeholder="Transformer capacity, quantity, delivery timeline..."
+                  placeholder="Transformer capacity, quantity, delivery timeline...."
                 />
 
                 
