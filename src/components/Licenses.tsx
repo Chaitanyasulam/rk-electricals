@@ -71,8 +71,7 @@ const licenses = [
 
 const row1 = licenses.slice(0, 3)
 const row2 = licenses.slice(3, 6)
-const row3 = licenses.slice(6, 9)
-const row4 = licenses.slice(6, 12)
+
 function LicenseCard({
   title,
   body,
