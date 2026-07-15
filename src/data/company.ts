@@ -1,0 +1,1 @@
+export const GST_NUMBER = '37AAACR1234F1Z5'
