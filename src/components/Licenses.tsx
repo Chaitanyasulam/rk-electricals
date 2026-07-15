@@ -3,69 +3,58 @@ import Marquee from './Marquee'
 const licenses = [
   {
     title: 'BIS License (IS 1180)',
-    body: 'Mandatory certification under IS 1180 (Part 1) for oil-immersed distribution transformers supplied across India.',
+    logo: '/certifications/bis.svg',
+    body: 'Certified under IS 1180 (Part 1) for manufacturing oil-immersed distribution transformers.',
     tag: 'Mandatory',
   },
   {
     title: 'ISO 9001:2015',
-    body: 'Quality Management System certification for design, production, inspection, and continuous improvement.',
+    logo: '/certifications/iso9001.svg',
+    body: 'Quality Management System certification ensuring consistent manufacturing excellence.',
     tag: 'Quality',
   },
   {
-    title: 'NABL Certified',
-    body: 'National Accreditation Board for Testing and Calibration Laboratories — accredited in-house testing for routine and type tests.',
-    tag: 'Testing',
-  },
-  {
-    title: 'ERDA Certified',
-    body: 'Electrical Research and Development Association certification validating design standards and performance testing protocols.',
-    tag: 'Research',
-  },
-  {
-    title: 'Factory License',
-    body: 'Registration under the Factories Act, 1948 for industrial manufacturing and worker safety compliance.',
-    tag: 'Manufacturing',
-  },
-  {
-    title: 'GST Registration',
-    body: 'Goods and Services Tax registration for legal supply to utilities, contractors, dealers, and commercial buyers.',
-    tag: 'Tax & Trade',
-  },
-  {
-    title: 'MSME / Udyam Registration',
-    body: 'MSME registration for government tender eligibility, subsidies, and priority sector benefits.',
-    tag: 'Government',
-  },
-  {
-    title: 'Pollution Control Consent',
-    body: 'CTE and CTO from the State Pollution Control Board for oil handling and environmental compliance.',
+    title: 'ISO 14001:2015',
+    logo: '/certifications/iso14001.svg',
+    body: 'Environmental Management System certification for sustainable manufacturing.',
     tag: 'Environment',
   },
   {
-    title: 'CEIG Approval',
-    body: 'Chief Electrical Inspector to Government approval for manufacturing and testing of electrical equipment.',
+    title: 'ISO 45001:2018',
+    logo: '/certifications/iso45001.svg',
+    body: 'Occupational Health & Safety Management System certification.',
     tag: 'Safety',
   },
   {
-    title: 'DISCOM Vendor Empanelment',
-    body: 'Approved vendor with APSPDCL, APCPDCL, APEPDCL, TSSPDCL, and TSEPPDCL for tenders and direct supply.',
-    tag: 'Supply',
+    title: 'ERDA Certified',
+    logo: '/certifications/erda.svg',
+    body: 'Electrical Research and Development Association certified testing and validation.',
+    tag: 'Testing',
   },
   {
-    title: 'BEE Energy Efficiency',
-    body: 'Bureau of Energy Efficiency compliance for energy-efficient transformer designs under the Energy Conservation Act.',
-    tag: 'Efficiency',
+    title: 'BEE 5-Star Rated',
+    logo: '/certifications/bee5star.svg',
+    body: 'Manufacturing Bureau of Energy Efficiency 5-Star rated distribution transformers.',
+    tag: 'Energy',
   },
   {
-    title: 'Trade License',
-    body: 'Municipal trade license for operating the manufacturing unit from registered premises.',
-    tag: 'Local',
+    title: 'BEE 2-Star Rated',
+    logo: '/certifications/bee2star.svg',
+    body: 'Manufacturing BEE 2-Star rated distribution transformers.',
+    tag: 'Energy',
+  },
+  {
+    title: 'Pollution Control Board',
+    logo: '/certifications/pollution.svg',
+    body: 'Environmental approvals from the State Pollution Control Board.',
+    tag: 'Compliance',
   },
 ]
 
-const row1 = licenses.slice(0, 6)
-const row2 = licenses.slice(6)
-
+const row1 = licenses.slice(0, 3)
+const row2 = licenses.slice(3, 6)
+const row3 = licenses.slice(6, 9)
+const row4 = licenses.slice(6, 12)
 function LicenseCard({
   title,
   body,
