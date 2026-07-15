@@ -20,7 +20,7 @@ export default function Hero() {
           <p className="mt-7 max-w-lg text-base leading-relaxed text-muted md:text-lg">
             RK Electricals Private Limited designs and manufactures oil-immersed distribution
             transformers up to <strong className="text-charcoal">500 KVA</strong> — trusted by
-            <strong className="text-charcoal"> 6 partners</strong>, supplying contractors and the
+            <strong className="text-charcoal"> 25+ partners</strong>, supplying contractors and the
             residential &amp; commercial sector with over{' '}
             <strong className="text-charcoal">5,000 units every year</strong>.
           </p>
