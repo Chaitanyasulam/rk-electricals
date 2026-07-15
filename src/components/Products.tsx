@@ -32,14 +32,30 @@ const products = [
 ]
 
 const specs = [
-  'Oil-immersed, naturally cooled (ONAN) design',
-  'Copper wound with low-loss silicon steel core laminations',
-  '11 kV primary / 415 V secondary — custom ratios available',
-  'Conforms to IS 1180 (Part 1) — BIS mandatory standards',
-  'Conservator tank with silica gel breather',
-  'Buchholz relay, oil level indicator & pressure relief device',
-  'Radiator-type cooling with lifting lugs & earthing terminals',
-  'Routine & type test certificates provided on dispatch',
+  "Oil-immersed, naturally cooled (ONAN) distribution transformers",
+  "Capacity range: Up to 500 kVA",
+  "Voltage class: 11 kV primary / 433 V secondary (custom voltage ratios available)",
+  "Three-phase, 50 Hz AC supply",
+  "Copper wound windings with electrolytic-grade copper conductors",
+  "CRGO (Cold Rolled Grain Oriented) silicon steel core for low no-load losses",
+  "Energy-efficient designs compliant with BEE 2-Star and 5-Star ratings",
+  "Manufactured in accordance with IS 1180 (Part 1): 2014 and latest BIS standards",
+  "Hermetically sealed or conservator-type construction",
+  "Conservator tank with silica gel breather for moisture control",
+  "Buchholz relay for internal fault protection (where applicable)",
+  "Magnetic oil level gauge (MOG) with oil level indicator",
+  "Pressure Relief Valve (PRV) for enhanced operational safety",
+  "Off-Circuit Tap Changer (OCTC) for voltage adjustment",
+  "Porcelain or polymer outdoor bushings",
+  "Radiator cooling system for efficient heat dissipation",
+  "Heavy-duty fabricated mild steel tank with anti-corrosion surface treatment",
+  "High-quality transformer oil conforming to IS 335",
+  "Lifting lugs, jacking pads, towing holes, and earthing terminals provided",
+  "Suitable for indoor and outdoor installations",
+  "Routine tests conducted as per IS 2026 and IS 1180 before dispatch",
+  "Type-tested design validated by ERDA",
+  "Insulation Resistance (IR), Turns Ratio (TTR), Winding Resistance, and High Voltage tests performed",
+  "Each transformer supplied with routine test certificates, guarantee test reports, and operation & maintenance manual",
 ]
 
 export default function Products() {
